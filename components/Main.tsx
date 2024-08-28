@@ -29,7 +29,7 @@ export default function Main() {
         <p
           className={`${PretendardBold.className} lg:text-[2.08vw] xl:text-[40px] leading-[47px] text-center text-white`}
         >
-          "내 손안의 농구 코트"
+          &quot;내 손안의 농구 코트&quot;
         </p>
 
         <div className="mt-[10%] mb-[35%] lg:mt-[5%] lg:mb-[5%] w-[80%] lg:w-[38%] max-w-[734px]">
