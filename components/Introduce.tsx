@@ -5,7 +5,7 @@ import { PretendardRegular, PretendardExtraBold } from "@/app/styles/fonts";
 export default function Introduce() {
   return (
     <div className="bg-[#F0F0F0] flex flex-col items-center">
-      <div className="pt-[28px] pb-[22px] lg:pt-[168px] lg:pb-[113px] w-full flex justify-center">
+      <div className="pt-[28px] pb-[22px] sm:pt-[50px] sm:pb-[40px] lg:pt-[168px] lg:pb-[113px] w-full flex justify-center">
         <Image
           src="/icon.png"
           alt="Introduce Page Icon"
@@ -17,23 +17,23 @@ export default function Introduce() {
       </div>
 
       <div
-        className={`${PretendardRegular.className} text-[11px] lg:text-[2.6vw] xl:text-[3.125rem] text-center leading-[13px] sm:leading-[3.75rem]`}
+        className={`${PretendardRegular.className} text-[11px] sm:text-[14px] lg:text-[2.6vw] xl:text-[3.125rem] text-center leading-[13px] sm:leading-[30px] lg:leading-[3.75rem]`}
       >
-        <p className="mb-[5px] xl:mb-[2.3125rem]">
+        <p className="mb-[5px] lg:mb-[2.3125rem]">
           밖에서{" "}
           <span className={`${PretendardExtraBold.className}`}>
             혼자 농구하신 경험
           </span>{" "}
           있으신가요?
         </p>
-        <p className="mb-[5px] xl:mb-[2.3125rem]">
+        <p className="mb-[5px] lg:mb-[2.3125rem]">
           농구하고 싶은 날{" "}
           <span className={`${PretendardExtraBold.className}`}>
             눈이나 비와서 못한 경험
           </span>{" "}
           있으신가요?
         </p>
-        <p className="mb-[5px] xl:mb-[2.3125rem]">
+        <p className="mb-[5px] lg:mb-[2.3125rem]">
           농구{" "}
           <span className={`${PretendardExtraBold.className}`}>
             3vs3, 5vs5 게임
@@ -76,7 +76,7 @@ export default function Introduce() {
         </div>
 
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex flex-col items-center">
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center mb-[6px] sm:mb-0">
             <Image
               src="/basketballCourtIcon.svg"
               alt="basketballCourtIcon"
@@ -90,7 +90,7 @@ export default function Introduce() {
           <div
             className={`${PretendardRegular.className} text-white flex flex-col items-center leading-[13px] xl:leading-[59px] text-[11px] sm:text-basevw 2xl:text-[50px]`}
           >
-            <p className="my-[3px] sm:my-[37px] text-center">
+            <p className="my-[3px] sm:my-[20px] lg:my-[37px] text-center">
             이젠 실외에서도 실내에서도 근처 농구장을 검색하고 해당 농구장에 인원수에 맞춰
             </p>
             <p className="my-[3px]">

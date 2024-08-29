@@ -17,7 +17,7 @@ export default function Main() {
 
       <div className="absolute flex flex-col items-center w-full h-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-764">
         <p
-          className={`${PretendardBold.className} text-[9px] lg:text-[2.08vw] xl:text-[40px] leading-[10px] sm:leading-[47px] text-center text-white`}
+          className={`${PretendardBold.className} text-[9px] sm:text-[2.08vw] xl:text-[40px] leading-[10px] lg:leading-[47px] text-center text-white`}
         >
           &quot;내 손안의 농구 코트&quot;
         </p>
@@ -34,9 +34,9 @@ export default function Main() {
 
         {/* 글씨 */}
         <div
-          className={`${PretendardRegular.className} text-[#FF4400] bg-white leading-[24px] lg:leading-[5.2vw] text-center w-[47%] lg:w-[39%] max-w-[764px] shadow-[0_0px_0px_0.2px_rgba(112,112,112,1)]`}
+          className={`${PretendardRegular.className} text-[#FF4400] bg-white leading-[24px] lg:leading-[5.2vw] text-center w-[47%] max-w-[764px] shadow-[0_0px_0px_0.3px_rgba(112,112,112,1)]`}
         >
-          <div className="text-[13px] lg:text-[2.87vw] xl:text-[55px] shadow-[0_0px_0px_0.2px_rgba(112,112,112,1)]">
+          <div className="text-[13px] lg:text-[2.87vw] 2xl:text-[55px] shadow-[0_0px_0px_0.3px_rgba(112,112,112,1)]">
             <p>
               HELLO.{" "}
               <span className={`${PretendardBold.className}`}>
@@ -44,7 +44,7 @@ export default function Main() {
               </span>
             </p>
           </div>
-          <div className="text-[10px] lg:text-[2.08vw] xl:text-[40px] shadow-[0_0px_0px_0.2px_rgba(112,112,112,1)]">
+          <div className="text-[10px] lg:text-[2.08vw] 2xl:text-[40px] shadow-[0_0px_0px_0.3px_rgba(112,112,112,1)]">
             <p>Let’s play basketball = Let’s BLAYBALL</p>
           </div>
         </div>
