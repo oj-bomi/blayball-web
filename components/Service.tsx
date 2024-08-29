@@ -13,25 +13,14 @@ export default function Service() {
   return (
     <>
       <div className="w-full relative">
-        <div className="bg-[#F0F0F0] h-screen xl:h-auto flex items-end">
+        <div className="bg-[#F0F0F0] flex items-end">
           <Image
             src="/newcourt.svg"
             alt="Main Page"
             layout="responsive"
             width={1920}
-            height={1378}
+            height={951}
             priority
-            className="hidden sm:block"
-          />
-
-          <Image
-            src="/newcourt2.svg"
-            alt="Main Page"
-            layout="responsive"
-            width={375}
-            height={667}
-            className="block sm:hidden"
-
           />
         </div>
 
@@ -42,27 +31,27 @@ export default function Service() {
               alt="LengthLogo"
               width={299}
               height={123}
-              className="w-[40vw] sm:w-[16vw]"
+              className="w-[18vw] sm:w-[16vw]"
             />
           </div>
           <p
-            className={`${PretendardBold.className} text-[#FF4400] text-[5vw] sm:text-[3.13vw] leading-[71px] sm:mb-[53.5px]`}
+            className={`${PretendardBold.className} text-[#FF4400] text-[12px] sm:text-[3.13vw] leading-[14px] sm:leading-[71px] mb-[10px] sm:mb-[53.5px]`}
           >
             농구가 하고 싶을 땐{" "}
             <span className={`${PretendardBlack.className}`}>BLAYBALL</span>
           </p>
 
           <div
-            className={`${PretendardRegular.className} text-[4vw] sm:text-[2.6vw] sm:leading-[59px] h-[9%] sm:h-[23.3%] flex flex-col justify-between mb-[7.2%]`}
+            className={`${PretendardRegular.className} text-[11px] sm:text-[2.6vw] leading-[14px] sm:leading-[59px] h-[20%] sm:h-[23.3%] flex flex-col justify-between`}
           >
             <p className="flex">
-              <span className="mr-[10px] sm:mr-[17px] flex">
+              <span className="mr-[3px] sm:mr-[17px] flex">
                 <Image
                   src="/checkIcon.svg"
                   alt="checkIcon"
                   width={47}
                   height={47}
-                  className="inline w-[6vw] sm:w-[2.6vw]"
+                  className="inline w-[2.3vw] sm:w-[2.6vw]"
                 />
               </span>
               지금 열정있는&nbsp;
@@ -72,13 +61,13 @@ export default function Service() {
               이 될 시간!
             </p>
             <p className="flex">
-              <span className="mr-[10px] sm:mr-[17px] flex">
+              <span className="mr-[3px] sm:mr-[17px] flex">
                 <Image
                   src="/checkIcon.svg"
                   alt="checkIcon"
                   width={47}
                   height={47}
-                  className="inline w-[6vw] sm:w-[2.6vw]"
+                  className="inline w-[2.3vw] sm:w-[2.6vw]"
                 />
               </span>
               <span className={`${PretendardExtraBold.className}`}>
@@ -90,31 +79,31 @@ export default function Service() {
         </div>
       </div>
       <div
-        className={`${PretendardMedium.className} py-[50px] sm:py-[110px] flex flex-col items-center`}
+        className={`${PretendardMedium.className} py-[17px] sm:py-[110px] flex flex-col items-center`}
       >
-        <p className="text-[#FF4400] leading-[2rem] xl:leading-[4.12vw] text-[1.5rem] xl:text-[3.5vw]">
+        <p className="text-[#FF4400] leading-[14px] sm:leading-[4.12vw] text-[13px] xl:text-[3.5vw]">
           어플리케이션&nbsp;
           <span className={`${PretendardBold.className}`}>제작 중</span>
         </p>
 
         <p
-          className={`${PretendardRegular.className} text-white sm:text-[2.08vw] xl:leading-[47px] mt-[10px] mb-[25px] sm:mt-[27px] sm:mb-[54px]`}
+          className={`${PretendardRegular.className} text-white text-[10px] sm:text-[2.08vw] xl:leading-[47px] mt-[6px] mb-[13px] sm:mt-[27px] sm:mb-[54px]`}
         >
-          아래 링크로 농구를 좋아하는 사람들과 미리 소통하기
+          아래 링크로 농구를 좋아하는 사람들과 <span className="underline">미리 소통하기</span>
         </p>
 
-        <div>
+
           <a href="https://open.kakao.com/o/gVaM23uf" target="_blank">
-            <div className="lg:text-[2.65vw] bg-[#F9E000] xl:leading-[66px] py-[1.65%] pl-[15px] pr-[17px] sm:pl-[40px] sm:pr-[47px] rounded-[56px]">
-              <span className="mr-[17px]">
+            <div className="text-[10px] sm:text-[2.65vw] bg-[#F9E000] leading-[17.8px] sm:leading-[66px] py-[1.65%] pl-[11px] pr-[12px] sm:pl-[40px] sm:pr-[47px] rounded-[56px] flex items-center mb-[7px] sm:mb-0">
+              <p className="mr-[3px] sm:mr-[17px]">
                 <Image
                   src="/kakaoIcon.svg"
                   alt="kakaoIcon"
                   width={69}
                   height={61}
-                  className="inline w-[8vw] sm:w-[3.7vw]"
+                  className="inline w-[3.7vw]"
                 />
-              </span>
+              </p>
               <span className={`${PretendardExtraBold.className}`}>
                 블레이볼&nbsp;
               </span>
@@ -124,7 +113,7 @@ export default function Service() {
               </span>
             </div>
           </a>
-        </div>
+
       </div>
     </>
   );
