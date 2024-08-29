@@ -49,7 +49,7 @@ export default function Introduce() {
       </div>
       <div className="relative pt-[23px] lg:pt-[6rem] pb-[17px] lg:pb-[85px] w-full my-[3px]">
         <Image
-          src="/blayballScreen.svg"
+          src="/blayballScreen.jpg"
           alt="blayball screen"
           width={807}
           height={1356}
