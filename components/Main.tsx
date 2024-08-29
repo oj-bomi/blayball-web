@@ -34,7 +34,7 @@ export default function Main() {
 
         {/* 글씨 */}
         <div
-          className={`${PretendardRegular.className} text-[#FF4400] bg-white border-solid border-[#707070] border leading-[24px] lg:leading-[5.2vw] text-center w-[46%] lg:w-[39%] max-w-[764px]`}
+          className={`${PretendardRegular.className} text-[#FF4400] bg-white border-solid border-[#707070] border leading-[24px] lg:leading-[5.2vw] text-center w-[47%] lg:w-[39%] max-w-[764px]`}
         >
           <div className="text-[13px] lg:text-[2.87vw] xl:text-[55px] border-solid border-[#707070] border-b">
             <p>
